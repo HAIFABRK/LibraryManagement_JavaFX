@@ -1,0 +1,59 @@
+.fenetrePrincipale {
+    -fx-background-image: url("bgrnd.jpg");
+    -fx-background-repeat: stretch;
+	-fx-background-size: 900 506;
+    -fx-background-position: center center;
+}
+.FormLivreFenetre{
+   
+    -fx-background-repeat: stretch;
+	-fx-background-size: 900 506;
+    -fx-background-position: center center;
+}
+
+.labelFenetreTitre, .labelTotal {
+    -fx-text-fill: #f7f7f7;
+    -fx-font-size: 26.0px;
+    -fx-background-color: #808080;
+}
+.labelForm {
+    -fx-text-fill: #007af4;
+}
+
+.text-field {
+    -fx-background-color: #ffffff; 
+    -fx-text-fill: #000000; 
+    -fx-border-color: #223344;
+    -fx-background-radius: 3.0, 2.0, 2.0, 2.0;
+    
+}
+
+
+.text-area {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #000000;
+    -fx-border-color: #223344; 
+    -fx-background-radius: 3.0, 2.0, 2.0, 2.0;
+    
+}
+.button{
+
+	-fx-background-radius: 3.0, 2.0, 2.0, 2.0;
+	-fx-font-size: 14.0px;
+	-fx-pref-height:40.0px;
+	-fx-pref-width:190.0px;
+}
+.boxTotal{
+	-fx-background-color: #5b5b5b;
+	-fx-border-color: #223344;
+
+}
+.table-row-cell{
+	-fx-cell-size: 40.0px;
+	-fx-font-size: 14.0px;
+	-fx-alignment: center-right ;
+	-fx-border-width: 0.009em;
+	-fx-border-color: #0079f2;
+	-fx-background-insets: 0.0, 0.0 0.0 0.0 0.0 ;
+	-fx-padding: 0.0em;
+}
